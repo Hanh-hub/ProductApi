@@ -7,7 +7,45 @@
 		<key>Login.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WatchOsDemo Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FD4196302A335EAC0017604F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD4196462A335EAE0017604F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD4196502A335EAE0017604F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDAA73622A3A097A006A11B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDAA73712A3A097C006A11B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDAA737B2A3A097C006A11B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
