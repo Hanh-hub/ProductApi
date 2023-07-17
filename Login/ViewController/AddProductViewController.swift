@@ -11,6 +11,7 @@ class AddProductViewController: UIViewController {
     
     var viewModel = AddProductViewModel()
     
+    @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var titleTextField: UITextField!
     
     @IBAction func submitButton(_ sender: Any) {
@@ -18,6 +19,7 @@ class AddProductViewController: UIViewController {
             if success {
                 DispatchQueue.main.async {
                     self.dismiss(animated: true, completion: nil)
+                    self.statusLabel.text = "Product added successfully!"
                     
                 }
             }
@@ -38,6 +40,7 @@ class AddProductViewController: UIViewController {
                 self.presentAlert(message: error.localizedDescription)
             }
             onComplete(true)
+            
         }
     }
     

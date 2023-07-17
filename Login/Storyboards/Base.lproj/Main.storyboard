@@ -600,6 +600,13 @@
                                     <action selector="submitButton:" destination="74h-cL-F7G" eventType="touchUpInside" id="TAz-LL-Tlh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS5-o7-9Md">
+                                <rect key="frame" x="165" y="491" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="H1u-Nc-bM3"/>
                         <color key="backgroundColor" red="0.76053089721451761" green="0.5903494223107264" blue="0.76859849691390991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -611,6 +618,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="statusLabel" destination="yS5-o7-9Md" id="Kkd-X1-cqn"/>
                         <outlet property="titleTextField" destination="OZX-6n-2Ew" id="f0v-1h-nKM"/>
                     </connections>
                 </viewController>
