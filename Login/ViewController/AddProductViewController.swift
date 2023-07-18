@@ -19,7 +19,7 @@ class AddProductViewController: UIViewController {
             if success {
                 DispatchQueue.main.async {
                     self.dismiss(animated: true, completion: nil)
-                    self.statusLabel.text = "Product added successfully!"
+                    self.statusLabel.text = "Product added successfully! Do you want to add another product?"
                     
                 }
             }
